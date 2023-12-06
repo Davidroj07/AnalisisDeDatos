@@ -1,0 +1,131 @@
+2023-10-16 20:27:59,932 : WARN  : comm-pool-thread-2 :  : Node : CSV Reader : 3:1 : Please specify a file
+2023-10-16 20:39:00,448 : WARN  : comm-pool-thread-4 :  : Node : CSV Reader : 3:1 : Please specify a file
+2023-10-16 21:12:23,608 : WARN  : comm-pool-thread-13 :  : Node : Decision Tree Learner : 3:3 : Guessing target column: "Embarked".
+2023-10-16 21:21:57,370 : WARN  : comm-pool-thread-15 :  : Node : Scorer : 3:5 : No columns selected yet.
+2023-10-16 21:23:17,299 : WARN  : KNIME-Worker-12-Scorer 3:5 :  : Node : Scorer : 3:5 : There were missing values in the reference or in the prediction class columns.
+2023-10-21 08:47:43,981 : WARN  : comm-pool-thread-23 :  : Node : CSV Reader : 3:6 : Please specify a file
+2023-10-21 09:06:28,446 : WARN  : comm-pool-thread-31 :  : Node : Decision Tree Learner : 3:8 : Guessing target column: "Embarked".
+2023-10-21 09:24:41,189 : WARN  : comm-pool-thread-36 :  : Node : Scorer : 3:10 : No columns selected yet.
+2023-12-05 22:39:06,836 : WARN  : comm-pool-thread-4 :  : Node : Row Filter : 3:11 : No row filter specified
+2023-12-05 22:40:08,406 : WARN  : main :  : WrappedNodeDialog : Row Filter : 3:11 : failed to apply settings: Enter a valid pattern to match
+org.knime.core.node.InvalidSettingsException: Enter a valid pattern to match
+	at org.knime.base.node.preproc.filter.row.ColumnRowFilterPanel.createFilter(ColumnRowFilterPanel.java:809)
+	at org.knime.base.node.preproc.filter.row.RowFilterNodeDialogPane.saveSettingsTo(RowFilterNodeDialogPane.java:339)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2023-12-05 22:43:53,956 : WARN  : main :  : ImportURI :  :  : Can't import object from URI 'https://docs.google.com/document/d/1FECwgaK6KdsiSbRVu-oSa3NELd9MxQn5/edit?usp=drivesdk&ouid=101224545270319820923&rtpof=true&sd=true Nidia Pardo.
+3213662210 '. Not a valid URL nor a valid path.
+java.net.URISyntaxException: Illegal character in query at index 132: https://docs.google.com/document/d/1FECwgaK6KdsiSbRVu-oSa3NELd9MxQn5/edit?usp=drivesdk&ouid=101224545270319820923&rtpof=true&sd=true Nidia Pardo.
+3213662210 
+	at java.base/java.net.URI$Parser.fail(Unknown Source)
+	at java.base/java.net.URI$Parser.checkChars(Unknown Source)
+	at java.base/java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.base/java.net.URI$Parser.parse(Unknown Source)
+	at java.base/java.net.URI.<init>(Unknown Source)
+	at org.knime.ui.java.api.ImportURI.getEntityImport(ImportURI.java:152)
+	at org.knime.ui.java.api.ImportURI.importURIAtWorkflowCanvas(ImportURI.java:240)
+	at org.knime.ui.java.api.ImportAPI.importURIAtWorkflowCanvas(ImportAPI.java:123)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.lambda$0(DesktopAPI.java:128)
+	at org.knime.ui.java.browser.KnimeBrowserFunction.function(KnimeBrowserFunction.java:80)
+	at com.equo.chromium.swt.internal.Chromium$FunctionsResourceHandler.lambda$0(Chromium.java:359)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-12-05 22:44:30,177 : WARN  : comm-pool-thread-5 :  : Node : Color Manager : 3:12 : Selected column "Embarked" with default nominal color mapping.
+2023-12-05 22:46:49,339 : WARN  : comm-pool-thread-5 :  : Node : Partitioning : 3:14 : No sampling method selected
+2023-12-05 22:47:44,667 : WARN  : comm-pool-thread-8 :  : Node : Naive Bayes Learner : 3:15 : Please define the classification column
+2023-12-05 22:47:56,849 : WARN  : KNIME-Worker-9-Naive Bayes Learner 3:15 :  : Node : Naive Bayes Learner : 3:15 : The following attributes contain missing values: Age, Embarked
+2023-12-05 22:47:56,849 : WARN  : KNIME-Worker-9-Naive Bayes Learner 3:15 :  : Node : Naive Bayes Learner : 3:15 : The following attributes are skipped: Name/Too many values, Ticket/Too many values, Cabin/Too many values
+2023-12-05 23:07:44,733 : WARN  : comm-pool-thread-10 :  : Node : K Nearest Neighbor : 3:15 : Please choose a valid class column
+2023-12-05 23:07:48,052 : WARN  : main :  : Node : K Nearest Neighbor : 3:15 : Input table contains more than one non-numeric column; they will be ignored.
+2023-12-05 23:07:49,091 : WARN  : main :  : Node : K Nearest Neighbor : 3:15 : Input table contains more than one non-numeric column; they will be ignored.
+2023-12-05 23:07:49,475 : WARN  : main :  : Node : K Nearest Neighbor : 3:15 : Input table contains more than one non-numeric column; they will be ignored.
+2023-12-05 23:07:50,765 : WARN  : KNIME-Worker-12-K Nearest Neighbor 3:15 :  : Node : K Nearest Neighbor : 3:15 : Input table contains more than one non-numeric column; they will be ignored.
+2023-12-05 23:07:50,769 : WARN  : KNIME-Worker-12-K Nearest Neighbor 3:15 :  : Node : K Nearest Neighbor : 3:15 : Input table contains missing values, the affected rows are ignored.
+2023-12-05 23:07:52,924 : WARN  : comm-pool-thread-10 :  : Node : Scorer : 3:5 : Column 'Prediction (Survived)' not found.
+2023-12-05 23:08:00,440 : WARN  : KNIME-Worker-13-Scorer 3:5 :  : Node : Scorer : 3:5 : There were missing values in the reference or in the prediction class columns.
+2023-12-05 23:08:24,959 : WARN  : comm-pool-thread-10 :  : Node : Decision Tree Learner : 3:15 : Guessing target column: "Embarked".
+2023-12-05 23:09:12,359 : WARN  : comm-pool-thread-10 :  : Node : Scorer : 3:17 : No columns selected yet.
+2023-12-05 23:18:31,455 : WARN  : comm-pool-thread-13 :  : Node : GroupBy : 3:18 : No grouping column included. Aggregate complete table.
+2023-12-05 23:18:31,456 : WARN  : comm-pool-thread-13 :  : Node : GroupBy : 3:18 : No aggregation column defined
+2023-12-05 23:18:31,526 : WARN  : comm-pool-thread-13 :  : Node : GroupBy : 3:18 : Please select at least one group or aggregation column
+2023-12-05 23:18:39,946 : WARN  : main :  : Node : GroupBy : 3:18 : No aggregation column defined
+2023-12-05 23:18:39,949 : WARN  : main :  : Node : GroupBy : 3:18 : All columns selected as group by column
+2023-12-05 23:18:41,050 : WARN  : main :  : Node : GroupBy : 3:18 : No aggregation column defined
+2023-12-05 23:18:41,051 : WARN  : main :  : Node : GroupBy : 3:18 : All columns selected as group by column
+2023-12-05 23:20:19,319 : WARN  : KNIME-Worker-20-Missing Value 3:19 :  : Node : Missing Value : 3:19 : Column "Cabin" still contains missing values.
+Column "Age" still contains missing values.
+Column "Embarked" still contains missing values.
+2023-12-05 23:21:34,057 : WARN  : KNIME-Worker-22-Missing Value 3:20 :  : Node : Missing Value : 3:20 : Column "Cabin" still contains missing values.
+Column "Age" still contains missing values.
+Column "Embarked" still contains missing values.
+2023-12-05 23:22:26,753 : WARN  : KNIME-Worker-20-Missing Value 3:20 :  : Node : Missing Value : 3:20 : Column "Cabin" still contains missing values.
+Column "Embarked" still contains missing values.
+2023-12-05 23:25:02,573 : WARN  : KNIME-Worker-27-Missing Value 3:20 :  : Node : Missing Value : 3:20 : Column "Cabin" still contains missing values.
+Column "Embarked" still contains missing values.
+2023-12-05 23:26:15,783 : WARN  : comm-pool-thread-13 :  : Node : SVM Learner : 3:21 : Class column not set
+2023-12-05 23:26:22,403 : WARN  : main :  : Node : SVM Learner : 3:21 : Rejecting 5 column(s) due to incompatible type: [Name, Sex, Ticket, Cabin, ... (remainder truncated)]
+2023-12-05 23:26:23,491 : WARN  : main :  : Node : SVM Learner : 3:21 : Rejecting 5 column(s) due to incompatible type: [Name, Sex, Ticket, Cabin, ... (remainder truncated)]
+2023-12-05 23:26:23,962 : WARN  : main :  : Node : SVM Learner : 3:21 : Rejecting 5 column(s) due to incompatible type: [Name, Sex, Ticket, Cabin, ... (remainder truncated)]
+2023-12-05 23:26:25,398 : WARN  : KNIME-Worker-32-SVM Learner 3:21 :  : Node : SVM Learner : 3:21 : Rejecting 5 column(s) due to incompatible type: [Name, Sex, Ticket, Cabin, ... (remainder truncated)]
+2023-12-05 23:29:15,320 : WARN  : KNIME-Worker-32-SVM Learner 3:21 :  : Node : SVM Learner : 3:21 : Maximum number of iterations reached.
+2023-12-05 23:30:22,418 : WARN  : comm-pool-thread-18 :  : Node : Decision Tree Learner : 3:22 : Guessing target column: "Embarked".
+2023-12-05 23:33:55,645 : WARN  : comm-pool-thread-20 :  : Node : CSV Reader : 3:23 : Please specify a file
+2023-12-05 23:34:50,683 : WARN  : comm-pool-thread-20 :  : Node : Decision Tree Learner : 3:25 : Guessing target column: "Embarked".
+2023-12-05 23:35:38,143 : WARN  : comm-pool-thread-20 :  : Node : Scorer : 3:27 : No columns selected yet.
+2023-12-05 23:36:42,846 : WARN  : KNIME-Worker-44-Missing Value 3:28 :  : Node : Missing Value : 3:28 : Column "Cabin" still contains missing values.
+Column "Embarked" still contains missing values.
+2023-12-05 23:37:48,048 : WARN  : comm-pool-thread-20 :  : Node : GroupBy : 3:29 : No grouping column included. Aggregate complete table.
+2023-12-05 23:37:48,048 : WARN  : comm-pool-thread-20 :  : Node : GroupBy : 3:29 : No aggregation column defined
+2023-12-05 23:37:48,049 : WARN  : comm-pool-thread-20 :  : Node : GroupBy : 3:29 : Please select at least one group or aggregation column
+2023-12-05 23:37:52,425 : WARN  : main :  : Node : GroupBy : 3:29 : No aggregation column defined
+2023-12-05 23:37:52,426 : WARN  : main :  : Node : GroupBy : 3:29 : All columns selected as group by column
+2023-12-05 23:37:52,753 : WARN  : main :  : Node : GroupBy : 3:29 : No aggregation column defined
+2023-12-05 23:37:52,753 : WARN  : main :  : Node : GroupBy : 3:29 : All columns selected as group by column
+2023-12-05 23:37:53,967 : WARN  : KNIME-Worker-46-Number To String 3:24 :  : Node : GroupBy : 3:29 : No aggregation column defined
+2023-12-05 23:37:53,968 : WARN  : KNIME-Worker-46-Number To String 3:24 :  : Node : GroupBy : 3:29 : All columns selected as group by column
+2023-12-05 23:38:00,082 : WARN  : KNIME-Worker-47-Missing Value 3:28 :  : Node : Missing Value : 3:28 : Column "Cabin" still contains missing values.
+Column "Embarked" still contains missing values.
+2023-12-05 23:38:59,453 : WARN  : KNIME-Worker-45-Missing Value 3:28 :  : Node : Missing Value : 3:28 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+Column "Cabin" still contains missing values.
